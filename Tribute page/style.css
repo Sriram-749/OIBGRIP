@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+span {
+    font-size: 60px;
+    color: white;
+}
+pre {
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: lucida Arial, Helvetica, sans-serif
+}
+.kalam img {
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: 2px solid green;
+    border-radius: 50%;        
+}
+p {
+    color: white;
+    margin-top: 40px;
+    font-size: 70px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letter {
+    color: white;
+    background-color: rgb(128, 128, 128,0.3);
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    border-radius: 5px;
+}
+#made {
+    font-size: 10px;
+}
+.finish {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}

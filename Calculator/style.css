@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: radial-gradient(white,green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 50px;
+}
+form {
+    text-align: center;
+    border: 5px solid green;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 450px;
+    padding-right: 25px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+input[type=text] {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 45px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.num {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.operator {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    background-color: rgb(59, 192, 59);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.clear {
+    height: 50px;
+    width: 70px;
+    margin-left: 5px;
+    font-size: 30px;
+    background-color: rgb(59, 192, 59);
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type=button]:hover {
+    box-shadow: 5px 5px;
+}
+.operator:hover, .clear:hover {
+    background-color: green;
+}
